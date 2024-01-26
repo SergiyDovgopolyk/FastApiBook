@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75203f9b-1695-44fd-a453-05415fd8b4bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/FastApiProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/migrations/versions/4dccf5d700eb_change_data_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/migrations/versions/fdf90b167394_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/conf/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/database/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/database/fu_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/models/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/repository/address_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/repository/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/routes/address_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/routes/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/schemas/contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/schemas/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/services/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/services/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/services/templates/forgot_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/services/templates/verify_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/FastApiBook/src/static/open_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastApiBook/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2bRmB04GsZE53qOvzZwqNwwqeap" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/dovgo/PycharmProjects/FastApiProject/FastApiBook"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dovgo\PycharmProjects\FastApiProject\FastApiBook" />
+      <recent name="C:\Users\dovgo\PycharmProjects\FastApiProject" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75203f9b-1695-44fd-a453-05415fd8b4bf" name="Changes" comment="" />
+      <created>1706186125221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706186125221</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FastApiBook/FastApiBook/src/conf/config.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FastApiBook/FastApiBook/src/repository/users.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pythonproject"
+version = "0.1.0"
+description = ""
+authors = ["dovgo <dovgopolyks@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+pydantic-settings = "^2.1.0"
+sqlalchemy = "^2.0.25"
+fastapi-users = "^12.1.2"
+fastapi-users-db-sqlalchemy = "^6.0.1"
+fastapi-limiter = "^0.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
