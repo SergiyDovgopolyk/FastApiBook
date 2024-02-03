@@ -67,7 +67,22 @@ async def confirmed_email(
         request: Request,
         user_manager: BaseUserManager[models.UP, models.ID] = Depends(get_user_manager)
 ):
+    """
+    Verify a user's email address using a confirmation token.
 
+    :param token: The confirmation token.
+    :type token: str
+    :param request: The HTTP request object.
+    :type request: Request
+    :param user_manager: The user manager.
+    :type user_manager: BaseUserManager[models.UP, models.ID]
+
+    :return: The user object after verification.
+    :rtype: UserRead
+
+    :raises HTTPException: If the confirmation token is invalid or the user does not exist.
+                           If the user is already verified.
+    """
     try:
         user = await user_manager.verify(token, request)
         return schemas.model_validate(UserRead, user)
@@ -85,7 +100,20 @@ async def confirmed_email(
 
 @router.get('/{username}')
 async def request_email(username: str, response: Response, db: AsyncSession = Depends(get_db)):
-    user = await db.execute(select(UserRead).where(UserRead.username == username))
+    """
+    Retrieves the email of the specified user from the database and returns it as a file response.
+
+    :param username: The username of the user whose email is being requested.
+    :type username: str
+    :param response: The response object used to send the file response.
+    :type response: Response
+    :param db: The asynchronous database session. Defaults to the session obtained from the `get_db` dependency.
+    :type db: AsyncSession, optional
+
+    :return: The file response containing the requested email as a PNG image.
+    :rtype: FileResponse
+    """
+
     print('--------------------')
     print(f'{username} відкрив email')
     print('--------------------')

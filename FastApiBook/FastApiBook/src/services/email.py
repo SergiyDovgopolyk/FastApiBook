@@ -22,6 +22,20 @@ conf = ConnectionConfig(
 
 
 async def send_email_verification(email: EmailStr, username: str, token: str, host: str):
+    """
+    Sends an email verification to the specified email address.
+
+    :param email: The email address to send the verification to.
+    :type email: EmailStr
+    :param username: The username associated with the email address.
+    :type username: str
+    :param token: The verification token.
+    :type token: str
+    :param host: The host URL.
+    :type host: str
+
+    :raises ConnectionErrors: If there is an error connecting to the email server.
+    """
     try:
         message = MessageSchema(
             subject="Confirm your email",
@@ -37,6 +51,18 @@ async def send_email_verification(email: EmailStr, username: str, token: str, ho
 
 
 async def send_email_forgot_password(email: EmailStr, username: str, token: str, host: str):
+    """
+    Send a forgot password email to the specified email address.
+
+    :param email: The email address of the user.
+    :type email: EmailStr
+    :param username: The username of the user.
+    :type username: str
+    :param token: The token for password reset.
+    :type token: str
+    :param host: The host URL for the application.
+    :type host: str
+    """
     try:
         message = MessageSchema(
             subject="Forgot password",

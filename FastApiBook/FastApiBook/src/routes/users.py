@@ -35,7 +35,27 @@ async def update_avatar(
         db: AsyncSession = Depends(get_db),
         user_manager: BaseUserManager[models.UP, models.ID] = Depends(get_user_manager),
 ):
+    """
+    Update the avatar of a user.
 
+    :param file: The file containing the new avatar image.
+    :type file: UploadFile
+    :param user: The user for whom the avatar is being updated.
+    :type user: User
+    :param db: The database session.
+    :type db: AsyncSession
+    :param user_manager: The user manager.
+    :type user_manager: BaseUserManager[models.UP, models.ID]
+
+    :return: The updated user object.
+    :rtype: UserRead
+
+    :dependencies:
+        - RateLimiter: A rate limiter dependency that limits the number of requests.
+        - current_active_user: A dependency function that retrieves the current active user.
+        - get_db: A dependency function that retrieves the database session.
+        - get_user_manager: A dependency function that retrieves the user manager.
+    """
     public_id = f"AddressBook/{user.email}/{file.filename}"
     res = uploader.upload(file.file, public_id=public_id, owerite=True)
     res_url = CloudinaryImage(public_id).build_url(
